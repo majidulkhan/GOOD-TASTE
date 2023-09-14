@@ -1,0 +1,578 @@
+/* global styling */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+/* end of global styling */
+
+/* navbar styling */
+
+.navbar {
+    width: 100%;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    z-index: 999;
+}
+
+.lines{
+    width: 40px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 5rem;
+    padding: 2.3rem 0;
+    cursor: pointer;
+    display: none;
+}
+
+.line-1{
+    margin-bottom: 1rem;
+    width: 100%;
+    height: 4px;
+    background-color: #ffffff;
+    border-radius: 25px;
+    
+}
+
+.navbar nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 5rem;
+}
+
+.logo h1 {
+    font-size: 3rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    color: #d2660c;
+    cursor: pointer;
+}
+
+.navbar nav ul li {
+    list-style: none;
+    display: inline;
+    margin: 0 2rem;
+}
+
+.navbar nav ul li a {
+    text-decoration: none;
+    font-size: 1.7rem;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: white;
+}
+
+.booking-btn button {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: #b08fc0;
+    font-family: sans-serif;
+    font-weight: 900;
+    position: relative;
+    cursor: pointer;
+
+}
+
+.booking-btn button::after {
+    content: "";
+    background-color: #d2660c;
+    height: 1px;
+    width: 100%;
+    position: absolute;
+    bottom: -0.5rem;
+    left: 0;
+}
+
+/* end of navbar styling */
+
+
+/* landing styling */
+
+.landing {
+    width: 100%;
+    height: 180vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(img/background/background2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content {
+    padding: 0 5rem;
+    padding-bottom: 30rem;
+
+}
+
+.content p {
+    color: white;
+    font-size: 2.5rem;
+}
+
+.content h1 {
+    color: white;
+    font-size: 7rem;
+    font-family: sans-serif;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+}
+
+.content button {
+    border: none;
+    outline: none;
+    padding: 2rem 4rem;
+    font-size: 2rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    background-color: #dd7e2f;
+    cursor: pointer;
+}
+
+/* end of landing styling */
+
+/* about us styling */
+
+.about-section {
+    padding: 5rem;
+}
+
+.about-us {
+    width: 100%;
+    height: 120vh;
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.1);
+    padding: 8rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: white;
+    transform: translateY(-40%);
+}
+
+.left {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.left h3 {
+    font-size: 3rem;
+    color: #7b01b7;
+}
+
+.left h1 {
+    font-size: 6rem;
+    font-family: sans-serif;
+    font-weight: 900;
+    color: #cd7327;
+    position: absolute;
+    top: 7rem;
+    width: 100rem;
+}
+
+.first-para p,
+.second-para {
+    font-size: 2rem;
+    margin-top: 3rem;
+
+}
+
+.about-content button {
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+    background-color: transparent;
+    border: 3px solid #cd7327;
+    padding: 2rem 5rem;
+    color: #4c0000;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.right {
+    width: 50%;
+    height: 100%;
+}
+
+.right img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* end of about us styling */
+
+/* food menu section styling */
+
+.food-menu {
+    transform: translateY(-150px);
+}
+
+.food-menu-container h1 {
+    text-align: center;
+    font-size: 7rem;
+    color: #d18e55;
+    text-transform: capitalize;
+}
+
+.menu-container {
+    text-align: center;
+    margin-top: 20rem;
+    background-color: #fae5c2;
+    position: relative;
+    padding: 0 5rem;
+}
+
+.menu-container::before {
+    content: "";
+    width: 120%;
+    height: 100vh;
+    background-color: #fae5c2;
+    position: absolute;
+    top: -52vh;
+    left: 50%;
+    transform: rotate(-6deg) translateX(-50%);
+    z-index: -1;
+}
+
+.menu-container::after {
+    content: "";
+    width: 120%;
+    height: 100vh;
+    background-color: #fae5c2;
+    position: absolute;
+    bottom: -40vh;
+    left: 50%;
+    transform: rotate(7deg) translateX(-50%);
+    z-index: -1;
+}
+
+.common-menu {
+    width: 100%;
+    height: 55vh;
+    margin-bottom: 3.5rem;
+    cursor: pointer;
+
+}
+
+.common-menu:nth-child(1) .bg-food {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/food/breakfast.jpg);
+    background-position: top 25% left 20%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.common-menu:nth-child(2) {
+    display: flex;
+
+}
+
+.common-menu:nth-child(2) .bg-food:nth-child(1) {
+    width: calc(40% - 2rem);
+    height: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/food/lunch.jpg);
+    background-position: top 25% left 20%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 2rem;
+
+}
+
+.common-menu:nth-child(2) .bg-food:nth-child(2) {
+    width: calc(60% - 2rem);
+    height: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/food/snacks.jpg);
+    background-position: top 25% left 20%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 2rem;
+
+}
+
+.common-menu:nth-child(3) {
+    width: 100%;
+    height: 90vh;
+}
+
+.common-menu:nth-child(3) .bg-food {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/food/dinner.jpg);
+    background-position: top 25% left 20%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.bg-food {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bg-food h1 {
+    font-family: serif;
+    color: white;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+}
+
+.bg-food p {
+    color: white;
+    font-family: sans-serif;
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 2rem;
+}
+
+.bg-food .btn {
+    color: #00a2ff;
+    font-weight: 900;
+    font-size: 1.4rem;
+    margin-top: 1rem;
+}
+
+.see-all-btn {
+    font-size: 3rem;
+    margin-top: 12rem;
+    font-family: sans-serif;
+    font-weight: 900;
+    color: #d8a981;
+    cursor: pointer;
+}
+
+/* end of food menu section styling */
+
+/* gallery section stylling */
+
+.gallery {
+    margin-top: 20rem;
+}
+
+.gallery-container h1 {
+    text-align: center;
+    font-size: 7rem;
+    color: #d18e55;
+    text-transform: capitalize;
+    margin-bottom: 10rem;
+
+}
+
+.photo-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 3rem;
+
+}
+
+.photos {
+    width: 37rem;
+    height: 45rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.photos img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* end of gallery section stylling */
+
+/* contact section styling */
+
+.contact-section {
+    /* margin-top: 40rem; */
+    transform: translateY(60%);
+
+}
+
+.left-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.left-form h3 {
+    font-size: 3rem;
+    color: #7b01b7;
+    margin-bottom: 2rem;
+}
+
+.form-section form {
+    display: flex;
+    flex-direction: column;
+}
+
+.common-form-class {
+    margin-bottom: 6rem;
+}
+
+.naming input {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 0.2rem solid rgb(88, 88, 88);
+    padding: 0.9rem 0;
+    outline: none;
+    width: 20rem;
+
+}
+
+.naming input:nth-child(1) {
+    margin-right: 3rem;
+}
+
+.naming input::placeholder {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: rgba(88, 88, 88, 0.4);
+    font-family: serif;
+    letter-spacing: 0.2rem;
+}
+
+.email,
+.text,
+.phone {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 0.2rem solid rgb(88, 88, 88);
+    margin-right: 3rem;
+    padding: 0.9rem 0;
+    outline: none;
+    width: 100%;
+}
+
+.email,
+.text,
+.phone::placeholder {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: rgba(88, 88, 88, 0.4);
+    font-family: serif;
+    letter-spacing: 0.2rem;
+}
+
+.left-form button {
+    background-color: transparent;
+    border: 3px solid #cd7327;
+    padding: 2rem 5rem;
+    color: #4c0000;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    font-weight: 900;
+    cursor: pointer;
+    align-self: flex-end;
+    margin-bottom: 2rem;
+}
+
+/* end of contact section styling */
+
+/* footer section styling */
+
+footer {
+    width: 100%;
+    height: 120vh;
+    background-color: #352d2d;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main-footer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 100%;
+    padding: 0 10rem;
+    margin-top: 30rem;
+}
+
+.list-1 h1 {
+    color: #d2660c;
+    font-size: 4rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    margin-bottom: 5rem;
+}
+
+.address {
+    font-size: 1.7rem;
+    color: white;
+    line-height: 3rem;
+}
+
+.list-container {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 5rem;
+    flex-wrap: wrap;
+}
+
+.list h2 {
+    color: #fecca1;
+    font-size: 2rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    margin-bottom: 5rem;
+}
+
+.list-item ul li {
+    list-style: none;
+    text-align: center;
+}
+
+.list-item ul li a{
+    font-size: 2rem;
+    text-decoration: none;
+    color: white;
+    line-height: 4rem;
+    letter-spacing: 0.15rem;
+    
+}
+
+.copyright-section{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    color: rgb(158, 158, 158);
+    font-weight: 800;
+    border-top: 0.2rem solid rgb(100, 100, 100);
+    padding-top: 2rem;
+}
+
+/* end of footer section styling */
+

@@ -1,0 +1,320 @@
+/* pixel 815px */
+
+@media screen and (max-width:815px) {
+    .nav-menu {
+        display: none;
+    }
+
+    .booking-btn {
+        display: none;
+    }
+
+    .lines {
+        display: inherit;
+    }
+
+    .landing {
+        height: 100vh;
+        justify-content: flex-end;
+    }
+
+    .content {
+        padding-bottom: 7rem;
+    }
+
+    .about-section {
+        display: none;
+    }
+
+    .food-menu {
+        transform: translateY(100px);
+    }
+
+    .common-menu:nth-child(2) .bg-food:nth-child(1) {
+        width: calc(50% - 2rem);
+    }
+
+    .common-menu:nth-child(2) .bg-food:nth-child(2) {
+        width: calc(50% - 2rem);
+    }
+
+    .food-menu-container {
+        background-color: #fae5c2;
+    }
+
+    .food-menu-container h1 {
+        padding-top: 5rem;
+    }
+
+    .see-all-btn {
+        padding-bottom: 5rem;
+    }
+    
+    .menu-container::before {
+        display: none;
+    }
+
+    .common-menu {
+        height: 35vh;
+    }
+
+    .menu-container::after {
+        display: none;
+    }
+
+    .gallery {
+        margin-top: 25rem;
+    }
+
+    .photo-container {
+        justify-content: space-around;
+    }
+
+    .contact-section .about-section {
+        display: inherit;
+    }
+
+    .left-form {
+        justify-content: space-around;
+    }
+
+    .right {
+        display: none;
+    }
+
+
+    .main-footer {
+        padding: 0 5rem;
+    }
+
+    .list-container {
+        width: 100%;
+        margin-top: 0;
+    }
+
+    .list {
+        margin: 2rem 1rem;
+    }
+
+    .list-item ul li {
+        text-align: left;
+    }
+}
+
+
+
+
+/* pixel 415px */
+
+@media screen and (max-width:415px) {
+    .navbar nav{
+        padding: 1.5rem 2rem;
+    }
+    .lines{
+        right: 2rem;
+    }
+
+    .landing {
+        height: 100vh;
+        justify-content: flex-end;
+    }
+    .content {
+        padding-left: 2rem;
+    }
+    .content p {
+        font-size: 2rem;
+    }
+    .content h1 {
+        font-size: 5rem;
+    }
+    .food-menu-container h1 {
+        font-size: 4rem;
+    }
+    .menu-container {
+        margin-top: 7rem;
+        padding: 0 1.5rem;
+    }
+    .common-menu {
+        height: 20vh;
+        margin-bottom: 1rem;
+    }
+    .common-menu:nth-child(2) .bg-food:nth-child(1) {
+        width: calc(50% - 0.5rem);
+        margin-right: 0.5rem;
+    }
+    .common-menu:nth-child(2) .bg-food:nth-child(2) {
+        width: calc(50% - 0.5rem);
+        margin-left: 0.5rem;
+    }
+    .bg-food h1 {
+        font-size: 2.5rem;
+        margin-bottom: 0.5rem;
+    }
+    .bg-food p {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+    .bg-food .btn {
+        font-size: 1.2rem;
+        margin-top: 0.5rem;
+    }
+    .common-menu:nth-child(3) {
+        height: 30vh;
+    }
+    .see-all-btn {
+        font-size: 1.8rem;
+        margin-top: 6rem;
+    }
+    .gallery {
+        margin-top: 15rem;
+    }
+    .gallery-container h1 {
+        font-size: 4rem;
+        margin-bottom: 5rem;
+    }
+    .photo-container {
+        padding: 0 1rem;
+    }
+    .photos {
+        width: 37rem;
+        height: 25rem;
+
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    .contact-section {
+        display: none;
+    }
+    footer {
+        height: auto;
+        margin-top: 3rem;
+    }
+    .main-footer {
+        margin-top: 10rem;
+    }
+    .logo h1 {
+        font-size: 2rem;
+    }
+    .lines {
+        width: 40px;
+        height: 100%;
+        padding: 1.5rem 0;
+    }
+}
+
+
+/* pixel 1900px */
+
+@media screen and (min-width:1900px) {
+    .logo h1 {
+        font-size: 5rem;
+    }
+    .navbar nav ul li a {
+        font-size: 2.7rem;
+    }
+    .booking-btn button {
+        font-size: 2.1rem;
+    }
+    .booking-btn button::after {
+        height: 2px;
+    }
+    .content {
+        padding-bottom: 70rem;
+    }
+    .content p {
+        font-size: 3.5rem;
+    }
+    .content h1 {
+        font-size: 10rem;
+    }
+    .content button {
+        padding: 2.5rem 5rem;
+        font-size: 3rem;
+    }
+    .left h3 {
+        font-size: 5rem;
+    }
+    .left h1 {
+        font-size: 10rem;
+        top: 10rem;
+        width: 200rem;
+    }
+    .first-para p, .second-para {
+        font-size: 3rem;
+    }
+    .about-content button {
+        padding: 2.5rem 5rem;
+        font-size: 3rem;
+    }
+    .about-content{
+        padding-bottom: 25rem;
+    }
+    .food-menu-container h1 {
+        font-size: 10rem;
+    }
+    .bg-food p {
+        font-size: 2.4rem;
+        line-height: 3.5rem;
+    }
+    .bg-food .btn {
+        font-size: 2.4rem;
+    }
+    .gallery-container h1 {
+        font-size: 10rem;
+    }
+    .photo-container {
+        padding: 0 15rem;
+    }
+    .photos {
+        width: 45rem;
+        height: 65rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+    .left-form h3 {
+        font-size: 5rem;
+    }
+    .naming input {
+        width: 35rem;
+        border-bottom: 0.3rem solid rgba(88, 88, 88, 0.5);
+    }
+    .email, .text, .phone {
+        border-bottom: 0.3rem solid rgba(88, 88, 88, 0.5);
+
+    }
+    .email, .text, .phone::placeholder {
+        font-size: 2.5rem;
+    }
+    .common-form-class {
+        margin-bottom: 10rem;
+    }
+    .left-form button {
+        position: relative;
+        top: -180px;
+        padding: 2.5rem 7rem;
+        font-size: 2.5rem;
+    }
+    .list-1 h1 {
+        font-size: 7rem;
+    }
+    .address {
+        font-size: 2.7rem;
+        line-height: 4rem;
+    }
+    .list h2 {
+        font-size: 4rem;
+    }
+    .list-item ul li a {
+        font-size: 3rem;
+        line-height: 6rem;
+    }
+    .main-footer {
+        margin-top: 50rem;
+    }
+    .copyright-section {
+        font-size: 2.5rem;
+    }
+}
+
